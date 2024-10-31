@@ -7,8 +7,8 @@ const AboutMe = () => {
   <div className="card1">
     <div className='img-and-name'>
       <img
-        src= {AboutMeImg} 
-        alt="Halifax, NS"
+        src= {AboutMeImg}
+        alt = "MyImage"
         className="image"
       />
       <h1 className='Name'>Hi, I'm Thoufiq</h1>
