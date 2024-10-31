@@ -1,0 +1,122 @@
+/* src/App.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: #e7e3e3;
+}
+
+html, body, #root {
+  height: 100%;
+  
+}.app {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.nav {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+.nav-link {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #dcbb44;
+}
+
+.card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 800px;
+  margin: 10px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card1{
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 800px;
+  margin: 10px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+.img-and-name{
+  display: flex;
+  padding: 20px;
+}
+
+.image {
+  width: 50%;
+  border-radius: 5px;
+ 
+}
+
+.weather {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2em;
+  margin-top: 10px;
+}
+.imageAboutMe {
+  height: 5px;
+  background-color: rgb(255, 255, 255);
+
+}
+.temp-image{
+  width: 100px;
+}
+.MyTownimage{
+width: 85%;
+height: 320px;
+padding: 10px;
+}
+.temp{
+  font-weight: bold;
+  padding: 5px;
+  font-family: 'Calibri';
+  font-size:35px;
+  color:rgb(0, 0, 0);
+}
+.tempunit{
+  font-weight: bold;
+  padding: 5px;
+  font-size:35px;
+  color: rgb(78, 163, 165);
+}
+.convertbutton{
+  font-weight: bold;
+  font-size: 15px;
+  padding: 10px;
+  color: #ffffff;
+  background-color: rgb(116, 118, 112);
+  border-radius: 10px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.convertbutton:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+.Name{
+  padding-top: 120px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.para{
+  padding: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 18px;
+  text-align: justify;
+}
+.highlight{
+  font-weight: bold;
+}

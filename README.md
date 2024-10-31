@@ -1,0 +1,1 @@
+This React application features two main pages: My Town, which showcases information and highlights about the town, and About Me, providing insights of my background and interests. The app also integrates a weather API to display the current temperature of the town, along with a "Convert to Fahrenheit" button for easy temperature conversion designed for user-friendly navigation.
