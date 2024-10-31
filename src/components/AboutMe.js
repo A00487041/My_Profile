@@ -1,4 +1,3 @@
-// src/components/AboutMe.js
 import React from 'react';
 import AboutMeImg from './assets/AboutMe1.png';
 
@@ -8,7 +7,7 @@ const AboutMe = () => {
   <div className="card1">
     <div className='img-and-name'>
       <img
-        src= {AboutMeImg} // Replace with an image URL of Halifax if available
+        src= {AboutMeImg} 
         alt="Halifax, NS"
         className="image"
       />
